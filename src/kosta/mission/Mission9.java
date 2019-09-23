@@ -41,7 +41,6 @@ public class Mission9 {
 
 	public static void main(String[] args) {
 		// 메뉴 선택 프로그램 구현하자.
-		// 키보드에서 메뉴를 입력하면 해당 메뉴에 출력
 		// 1.추가 2.출력 3.검색 4.수정 5.삭제 6.종료
 		// 과일들을 메뉴의 내용대로 실행해 보자.
 
