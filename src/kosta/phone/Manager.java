@@ -1,11 +1,11 @@
 package kosta.phone;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Manager {
 	// 배열 선언, 생성
 	phoneInfo arr[];
-	Scanner sc = new Scanner(System.in);
+//	Scanner sc = new Scanner(System.in);
 	static int count = 0;
 
 	public Manager() {
@@ -14,11 +14,11 @@ public class Manager {
 
 	public void addPhoneInfo() {
 		System.out.println("이름 :");
-		String name = sc.nextLine();
+		String name = DataInput.sc.nextLine();
 		System.out.println("번호 :");
-		String phoneNo = sc.nextLine();
+		String phoneNo =  DataInput.sc.nextLine();
 		System.out.println("생일 :");
-		String birth = sc.nextLine();
+		String birth =  DataInput.sc.nextLine();
 
 		arr[count++] = new phoneInfo(name, phoneNo, birth);
 	}
@@ -31,7 +31,7 @@ public class Manager {
 
 	public void searchPhoneInfo() {
 		System.out.println("검색값을 입력하세요");
-		String name = sc.nextLine();
+		String name =  DataInput.sc.nextLine();
 		int index=-1;
 
 
